@@ -173,13 +173,13 @@ const specialCamouflages = {
 
   'Pickaxe': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Squirm': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Shiverblight': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Flow': { amount: 75, type: 'armored_zombie_kills' },
+      'Virexia': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
     },
 
     warzone: {

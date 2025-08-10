@@ -54,13 +54,13 @@ const specialCamouflages = {
 
   'Olympia': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Metropolis': { amount: 30, type: 'hipfire_kills' },
+      'Citrus': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Cityscape': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+      'Ground': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {

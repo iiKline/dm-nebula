@@ -207,13 +207,13 @@ const specialCamouflages = {
 
   'ABR A1': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Brine': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Shadow': { amount: 2, type: 'kills_without_reloading', times: 10 },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Current': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+      'Bloom': { amount: 300, type: 'zombie_kills_while_affected_by_tactical' },
     },
 
     warzone: {

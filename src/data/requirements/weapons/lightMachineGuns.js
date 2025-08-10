@@ -71,13 +71,13 @@ const specialCamouflages = {
 
   'PML 5.56': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Infiltrator': { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
+      'Orchid ': { amount: 30, type: 'hipfire_kills' },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Revenant': { amount: 10, type: 'kills_without_reloading', times: 15 },
+      'Forest': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
     },
 
     warzone: {
