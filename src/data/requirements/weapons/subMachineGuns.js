@@ -3,35 +3,35 @@ import subMachineGuns from '@/data/weapons/subMachineGuns'
 const specialCamouflages = {
   'C9': {
     multiplayer: {
-      Heatwave: { amount: 30, type: 'kills_shortly_after_sprinting' },
-      Panther: { amount: 50, type: 'kills_with_suppressor' },
+      'Heatwave': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Panther': { amount: 50, type: 'kills_with_suppressor' },
     },
 
     zombies: {
-      Infrared: { amount: 30, type: 'parasite_kills' },
-      Lynx: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Infrared': { amount: 30, type: 'parasite_kills' },
+      'Lynx': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
-      'Clouded': { amount: 5, type: 'kills_on_most_wanted_target' },
-      'Puma': { amount: 5, type: 'kills_after_reloading' },
+      '?': null,
+      '??': null,
     },
   },
 
   'KSV': {
     multiplayer: {
-      Kakapo: { amount: 2, type: 'kills_without_reloading', times: 10 },
-      Throwback: { amount: 50, type: 'kills_while_moving' },
+      'Kakapo': { amount: 2, type: 'kills_without_reloading', times: 10 },
+      'Throwback': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
-      Phoenix: { amount: 300, type: 'kills_with_dead_wire_equipped' },
-      Throttle: { amount: 300, type: 'hipfire_kills' },
+      'Phoenix': { amount: 300, type: 'kills_with_dead_wire_equipped' },
+      'Throttle': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
-      'Raven': { amount: 10, type: 'hipfire_kills' },
-      'Radical': { amount: 5, type: 'kills_shortly_after_sprinting' },
+      '?': null,
+      '??': null,
     },
   },
 
@@ -42,13 +42,13 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Solemn: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
-      Aloha: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Solemn': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Aloha': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
-      'Viscous': { amount: 5, type: 'kills_while_under_uav'},
-      'Pulped': { amount: 5, type: 'kills_while_moving' },
+      '?': null,
+      '??': null,
     },
   },
 
@@ -59,13 +59,13 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Solvent: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
-      Shadow: { amount: 10, type: 'kills_without_reloading', times: 15 },
+      'Solvent': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+      'Shadow': { amount: 10, type: 'kills_without_reloading', times: 15 },
     },
 
     warzone: {
-      'Blend': { amount: 2, type: 'kills_without_reloading', times: 15 },
-      'Lurking Beast': { amount: 5, type: 'kills_while_impaired_by_tactical' },
+      '?': null,
+      '??': null,
     },
   },
 
@@ -76,20 +76,20 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Plunge: { amount: 300, type: 'kills_with_napalm_burst_equipped' },
-      Distress: { amount: 300, type: 'hipfire_kills' },
+      'Plunge': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+      'Distress': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
-      'Bellyflop': { amount: 10, type: 'hipfire_kills'},
-      'Hellscream': { amount: 10, type: 'kills_while_moving' },
+      '?': null,
+      '??': null,
     },
   },
 
   'Kompakt 92': {
     multiplayer: {
-      Kingfisher: { amount: 30, type: 'hipfire_kills' },
-      Blackthorn: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Kingfisher': { amount: 30, type: 'hipfire_kills' },
+      'Blackthorn': { amount: 30, type: 'kills_shortly_after_sprinting' },
     },
 
     zombies: {
@@ -98,8 +98,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      'Blue Lagoon': { amount: 5, type: 'point_blank_kills' },
-      'Firethorn': { amount: 5, type: 'kills_after_sliding' },
+      '?': null,
+      '??': null,
     },
   },
 
@@ -117,6 +117,58 @@ const specialCamouflages = {
     warzone: {
       'Memento Mori': { amount: 5, type: 'hipfire_kills' },
       'Dreamcurrent': { amount: 3, times: 5, type: 'kills_sm' },
+    },
+  },
+
+  'PPSh-41': {
+    multiplayer: {
+      'Skythrone': { amount: 2, type: 'kills_without_taking_damage', times: 30 },
+      // AEK-973 also has a camouflage named Mirage, uniqueName will be used for image
+      'Mirage': { uniqueName: 'Mirage_PPSh-41', amount: 5, type: 'kills_in_a_single_match', times: 3 },
+    },
+
+    zombies: {
+      'Cloudcrest': { amount: 75, type: 'armored_zombie_kills' },
+      'Wasteland': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Ladra': {
+    multiplayer: {
+      'Dataglow': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Broken': { amount: 50, type: 'kills_while_moving' },
+    },
+
+    zombies: {
+      'Duskcode': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Fissure': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+    'LC10': {
+    multiplayer: {
+      'Metroplex': { amount: 30, type: 'hipfire_kills' },
+      'Fluctuate': { amount: 50, type: 'kills_while_moving' },
+    },
+
+    zombies: {
+      'Urban Spire': { amount: 300, type: 'point_blank_kills' },
+      'Seethe': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      'Cosmopolis': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Oscillation': { amount: 5, type: 'kills_shortly_after_sprinting' },
     },
   },
 }

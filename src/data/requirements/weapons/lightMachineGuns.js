@@ -8,20 +8,20 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Vivid: { amount: 10, type: 'mangler_kills' },
-      Justice: { amount: 300, type: 'hipfire_kills' },
+      'Vivid': { amount: 10, type: 'mangler_kills' },
+      'Justice': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
-      'Destined': { amount: 2, type: 'kills_without_taking_damage', times: 5 },
-      'Bravery': { amount: 5, type: 'kills_on_most_wanted_target' },
+      '?': null,
+      '??': null,
     },
   },
 
   'XMG': {
     multiplayer: {
-      Buzz: { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
-      Snakebite: { amount: 50, type: 'kills_while_moving' },
+      'Buzz': { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
+      'Snakebite': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
@@ -30,8 +30,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      'Fizz': { amount: 2, type: 'kills_without_reloading', times: 5 },
-      'Nightfang': { amount: 5, type: 'kills_while_under_uav' },
+      '?': null,
+      '??': null,
     },
   },
 
@@ -47,8 +47,42 @@ const specialCamouflages = {
     },
 
     warzone: {
-      'Splattered': { amount: 2, type: 'kills_within_30_seconds', times: 5 },
-      'Dark Paradise': { amount: 10, type: 'kills_while_prone'},
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Feng 82': {
+    multiplayer: {
+      'Sunblossom': { amount: 50, type: 'kills_with_suppressor' },
+      'Bloodfang': { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
+    },
+
+    zombies: {
+      'Asterwind': { amount: 30, type: 'vermin_kills' },
+      'Shadowfang': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'PML 5.56': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      '?': null,
+      '??': null,
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
     },
   },
 }

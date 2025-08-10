@@ -3,13 +3,13 @@ import marksmanRifles from '@/data/weapons/marksmanRifles'
 const specialCamouflages = {
   'SWAT 5.56': {
     multiplayer: {
-      Ectoplasm: { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
-      Lumberjack: { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
+      'Ectoplasm': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
+      'Lumberjack': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
-      Hyperspace: { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
-      Wrangler: { amount: 75, type: 'armored_zombie_kills' },
+      'Hyperspace': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+      'Wrangler': { amount: 75, type: 'armored_zombie_kills' },
     },
 
     warzone: {
@@ -37,8 +37,8 @@ const specialCamouflages = {
 
   'AEK-973': {
     multiplayer: {
-      Ablaze: { amount: 2, type: 'kills_without_reloading', times: 10 },
-      Mirage: { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
+      'Ablaze': { amount: 2, type: 'kills_without_reloading', times: 10 },
+      'Mirage': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
     },
 
     zombies: {
@@ -54,18 +54,52 @@ const specialCamouflages = {
 
   'DM-10': {
     multiplayer: {
-      Mellowbloom: { amount: 50, type: 'kills_with_suppressor' },
-      Cobalt: { amount: 15, type: 'longshot_kills' },
+      'Mellowbloom': { amount: 50, type: 'kills_with_suppressor' },
+      'Cobalt': { amount: 15, type: 'longshot_kills' },
     },
 
     zombies: {
-      Furybloom: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
-      Manta: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Furybloom': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Manta': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
     },
 
     warzone: {
       '?': null,
       '??': null,
+    },
+  },
+
+  'TR2': {
+    multiplayer: {
+      'Chompers': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Restless': { amount: 2, type: 'kills_without_reloading', times: 10 },
+    },
+
+    zombies: {
+      'Nibbles': { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      'Burrowed': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Essex Model 07': {
+    multiplayer: {
+      'Bleakvine': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
+      'Fractal Mist': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+    },
+
+    zombies: {
+      'Nettlesting': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Fractal Plunge': { amount: 300, type: 'kills_with_brain_rot_equipped' },
+    },
+
+    warzone: {
+      'Overgrowth':  { amount: 5, type: 'kills_shortly_after_sprinting' },
+      'Fractal Infect': { amount: 3, type: 'kills_without_dying', times: 5 },
     },
   },
 }
