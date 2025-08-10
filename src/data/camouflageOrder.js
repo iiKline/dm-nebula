@@ -141,7 +141,7 @@ const specialOrder = [
   'Radiant Bath',
   'Midnight Prowl',
   'Solvent',
-  'Shadow',
+  'Stalking Shadow',
 
   // Jackal PDW
   'Deep End',
