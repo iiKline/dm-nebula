@@ -13,7 +13,7 @@
         </template>
 
         <template #date>
-          <b>{{ new Date(getBeganGrind).toLocaleDateString('en-GB') }}</b>
+          <b>{{ new Date(getBeganGrind).toLocaleDateString('en-US') }}</b>
         </template>
       </i18n-t>
 

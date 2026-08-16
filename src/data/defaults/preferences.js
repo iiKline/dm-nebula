@@ -1,6 +1,6 @@
 export default {
   layout: 'grid',
   favorites: false,
-  locale: 'en-GB',
+  locale: 'en-US',
   weaponCompletion: 4,
 }

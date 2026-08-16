@@ -1,8 +1,8 @@
-import enGB from './locales/en-GB.json'
+import enUS from './locales/en-US.json'
 
 export const translatedBy = {
 }
 
 export default {
-  'en-GB': enGB,
+  'en-US': enUS,
 }

@@ -3,7 +3,7 @@ import { getStoredLocale, updateHtmlLocaleAttributes } from '../utils/utils'
 import locales from './locales.js'
 
 const locale = getStoredLocale()
-const DEFAULT_LOCALE = 'en-GB'
+const DEFAULT_LOCALE = 'en-US'
 
 const i18n = createI18n({
   locale: locale || DEFAULT_LOCALE,
