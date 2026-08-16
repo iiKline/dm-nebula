@@ -9,7 +9,7 @@ import camouflageOrder from '@/data/camouflageOrder'
 
 import prestigeMasterList from '@/data/requirements/prestige'
 
-const token = import.meta.env.MODE === 'production' ? 'singularity' : 'singularity-dev'
+const token = import.meta.env.MODE === 'production' ? 'dm-nebula' : 'dm-nebula-dev'
 
 export const useStore = defineStore({
   id: 'store',

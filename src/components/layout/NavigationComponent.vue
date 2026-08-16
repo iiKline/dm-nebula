@@ -2,7 +2,7 @@
   <nav class="container">
     <router-link to="/" class="logo">
       <div class="icon"></div>
-      <p><span>Singularity</span></p>
+      <p><span>DM-Nebula</span></p>
     </router-link>
 
     <div class="nav-links">

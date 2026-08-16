@@ -5,6 +5,10 @@
         <a href="https://itchy-beard.co.uk/" class="copyright">ItchyBeard</a>
       </i18n-t>
       &nbsp;
+      <i18n-t keypath="general.edited_by" scope="global">
+        <a href="https://github.com/iiKline" class="copyright">Kline</a>
+      </i18n-t>
+      &nbsp;
       <i18n-t keypath="general.inspired_by" scope="global">
         <a href="https://emilcarlsson.se/" class="copyright">Emil Carlsson</a>
       </i18n-t>
@@ -16,14 +20,11 @@
     <div>
       <router-link to="/about">{{ $t('general.about') }}</router-link>
       <router-link to="/requirements">{{ $tc('general.requirement', 2) }}</router-link>
-      <a href="https://github.com/itchybeard/singularity/issues/new?title=[Bug]%20" target="_blank">
+      <a href="https://github.com/iiKline/dm-nebula/issues/new?title=[Bug]%20" target="_blank">
         {{ $tc('general.report_an_issue') }}
       </a>
-      <a href="https://github.com/itchybeard/singularity" v-tippy="{ content: 'GitHub' }" class="icon">
+      <a href="https://github.com/iiKline/dm-nebula" v-tippy="{ content: 'GitHub' }" class="icon">
         <IconComponent name="github" />
-      </a>
-      <a href="https://discord.gg/HswvED9v6a" v-tippy="{ content: 'Discord' }" class="icon">
-        <IconComponent name="discord" />
       </a>
       <LocaleSwitcherComponent />
     </div>

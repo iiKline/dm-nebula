@@ -17,20 +17,12 @@
         <router-link to="/settings">{{ $tc('general.setting', 2) }}</router-link>
         <router-link to="/about">{{ $t('general.about') }}</router-link>
         <router-link to="/requirements">{{ $tc('general.requirement', 2) }}</router-link>
-        <a href="https://github.com/itchybeard/singularity/issues/new?title=[Bug]%20" target="_blank">
+        <a href="https://github.com/iiKline/dm-nebula/issues/new?title=[Bug]%20" target="_blank">
           {{ $t('general.report_an_issue') }}
         </a>
-        <a href="https://github.com/itchybeard/singularity">
+        <a href="https://github.com/iiKline/dm-nebula">
           <IconComponent name="github" />
           GitHub
-        </a>
-        <a href="https://discord.gg/kM3hmsZG">
-          <IconComponent name="discord" />
-          Discord
-        </a>
-
-        <a href="https://www.buymeacoffee.com/itchybeard" class="button">
-          {{ $t('general.mobile_nav_support_link') }}
         </a>
       </div>
     </nav>
