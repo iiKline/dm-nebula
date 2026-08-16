@@ -13,7 +13,7 @@
             <h1>{{ modeBranding.title }}</h1>
           </div>
 
-          <div class="url">singularity-tracker.netlify.app</div>
+          <div class="url">dm-nebula.net</div>
         </div>
 
         <div class="stats-grid">
@@ -187,7 +187,7 @@ const generateImage = async () => {
     });
 
     const link = document.createElement('a');
-    link.download = `singularity-${props.mode}-progress.png`;
+    link.download = `dm-nebula-${props.mode}-progress.png`;
     link.href = canvas.toDataURL('image/png');
     document.body.appendChild(link);
     link.click();

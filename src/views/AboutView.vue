@@ -19,9 +19,9 @@
     <p>
       <i18n-t keypath="pages.about.open_source_description" scope="global">
         <a href="https://vuejs.org/" target="_blank">Vue</a>
-        <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+        <a href="https://www.vercel.com/" target="_blank">Vercel</a>
         <a href="https://analytics.google.com/" target="_blank">Google Analytics</a>
-        <a href="https://github.com/ItchyBeard/singluarity" target="_blank">GitHub</a>
+        <a href="https://github.com/iiKline/dm-nebula" target="_blank">GitHub</a>
       </i18n-t>
     </p>
 
@@ -39,16 +39,6 @@
         <h5>{{ tracker.title }}</h5>
       </a>
     </div>
-
-
-    <h4>{{ $t('pages.about.support_me') }}</h4>
-    <p>
-      <i18n-t keypath="pages.about.support_me_description" scope="global">
-        <a href="https://www.buymeacoffee.com/itchybeard" target="_blank">{{
-            $t('pages.about.support_me_link')
-          }}</a>
-      </i18n-t>
-    </p>
   </div>
 </template>
 
